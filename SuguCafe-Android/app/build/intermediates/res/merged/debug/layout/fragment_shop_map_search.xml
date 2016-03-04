@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopMapSearchFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#404040"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.9"
+            android:background="@android:drawable/editbox_background"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txt_seach"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1.0"
+                android:background="@null"
+                android:hint="@string/txt_search_shop"
+                android:lines="1" />
+
+            <ImageButton
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|fill"
+                android:layout_marginRight="-5dp"
+                android:background="@null"
+                android:contentDescription="@string/img_description_defaut"
+                android:src="@android:drawable/ic_delete" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_seach"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.1"
+            android:background="@drawable/selector_btn_seach"
+            android:text="@string/btn_search"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/> - See more at: http://android.keicode.com/basics/mapview-v2-code.php#sthash.hd2GOGXQ.dpuf
+    <!--<jp.co.deliv.android.imasugu.sugucafe.TapControlledMapView-->
+        <!--android:id="@+id/mapView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:apiKey="0YGC1FQFr-nnPw0oyyXxLpBzAW9Ftpzt-cNqL3Q"-->
+        <!--android:clickable="true"-->
+        <!--android:enabled="true" />-->
+
+
+</FrameLayout>

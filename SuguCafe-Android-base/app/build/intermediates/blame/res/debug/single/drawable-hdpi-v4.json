@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_btnseacharound.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\ic_btnseacharound.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\noshop.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\noshop.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\balloon_overlay_close.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\balloon_overlay_close.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\api.gif",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\api.gif"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sugucafe_logo.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\sugucafe_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\balloon_disclosure.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\balloon_disclosure.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\balloon_overlay_focused.9.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\balloon_overlay_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\balloon_overlay_unfocused.9.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-hdpi\\balloon_overlay_unfocused.9.png"
+    }
+]

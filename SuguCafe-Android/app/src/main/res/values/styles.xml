@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<style name="ShopName"><item name="android:textColor">#8b4513</item>
+</style><style name="ShopCategory"><item name="android:textColor">#deb887</item>
+</style>
+
+<style name="btn_menu_click" >
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:textStyle">italic</item>
+	<item name="android:background">#C56608</item>
+	<item name="android:textSize">18sp</item>
+</style>
+
+<style name="btn_menu_regular">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:textStyle">normal</item>
+	<item name="android:background">#C56608</item>
+	<item name="android:textSize">15sp</item>
+</style>
+
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#404040"
+	    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:background="@android:drawable/editbox_background" 
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="3dp"
+        >
+        <EditText
+            android:id="@+id/txt_seach"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_weight="1.0"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/txt_search_shop"
+            android:lines="1"/>
+
+        <ImageButton
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|fill"
+            android:background="@null"
+            android:layout_marginRight="-5dp"
+            android:src="@android:drawable/ic_delete" 
+            android:contentDescription="@string/img_description_defaut"
+            />
+
+    </LinearLayout>
+            <Button
+            android:id="@+id/btn_seach"
+            android:layout_width="50dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/selector_btn_seach"
+	        android:textColor="#FFFFFF"
+	        android:layout_weight="0.1"
+            android:text="@string/btn_search" />
+</LinearLayout>
+  	<LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+    <jp.co.deliv.android.imasugu.sugucafe.TapControlledMapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0YGC1FQFr-nnPw0oyyXxLpBzAW9Ftpzt-cNqL3Q"
+        android:clickable="true"
+        android:enabled="true" />
+
+
+    
+
+</LinearLayout>

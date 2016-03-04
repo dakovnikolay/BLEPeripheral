@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\sugusake_logo.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\drawable-ldpi\\sugusake_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\api.gif",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\drawable-ldpi\\api.gif"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\noshop.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\drawable-ldpi\\noshop.png"
+    }
+]

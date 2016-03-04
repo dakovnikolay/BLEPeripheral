@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_f68608f87eb3d3d2147676857ceeaf64a5c1f224.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_f33b9fcb6ba58239dd77da56a23fc372f02904fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\libs\GoogleAdMobAdsSdk-4.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="285db93a36432da767fe0edfb3a9df143eecbb0e">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\GoogleAdMobAdsSdk-4.1.0_285be90c4034386740bc1961538bfc61c8774d02.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-8.4.0_bc44b1e61ce71589b4be5c48577d835b1ae33071.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_c500f76bb3f6431928d26a1da5f1208da42fed2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_d0545edf0449f6ee70313914f074aaefdc4fe614.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_11d8f96f7a57d04fd11ea6ec3186a51811bd62ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.0.9\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ed2ab55be78d5d54ac9060d70d65a4573ae3d2ec">
+        <dex dex="C:\Users\dlv4119\AndroidStudioProjects\SuguSake\app\build\intermediates\pre-dexed\debug\com.jpardogo.materialtabstrip-library-1.0.9_bcf811f021507cbac5d50335d1b7b6ded301a2ed.jar" />
+    </item>
+
+</items>

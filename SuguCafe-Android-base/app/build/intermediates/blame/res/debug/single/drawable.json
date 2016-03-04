@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_tabs.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\selector_btn_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\balloon_overlay_bg_selector.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\balloon_overlay_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\main.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_menu.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\selector_btn_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_menu.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\main_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_seach.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\selector_btn_seach.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\about_boarder.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\about_boarder.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\del.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\del.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\test.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\test.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable\\user.png"
+    }
+]

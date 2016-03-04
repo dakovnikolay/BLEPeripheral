@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\psts_tab.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\exploded-aar\\com.jpardogo.materialtabstrip\\library\\1.0.9\\res\\layout\\psts_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shopdetailview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\layout\\shopdetailview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shoplistview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\layout\\shoplistview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sakemapview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\layout\\sakemapview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\layout\\aboutview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shoplistview_row.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\layout\\shoplistview_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguSake\\app\\src\\main\\res\\layout\\topview.xml"
+    }
+]

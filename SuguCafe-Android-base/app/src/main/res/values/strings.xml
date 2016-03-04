@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">すぐカフェ</string>
+	<string name="series_name">Quick Search</string>
+	<string name="app_description">Quick Searchシリーズ ：すぐカフェは、今すぐコーヒーがのみたい！、近くのカフェを探している等に応える、カフェ検索アプリケーションです。\n端末の位置情報を利用して現在位置を中心に半径1km付近にあるカフェを検索します。\n位置情報の取得には、端末のGPS機能、ネットワークによる位置情報取得機能を利用しております。屋内などお使いの環境によっては、端末の位置情報が正確に取得できない場合がございます。あらかじめご了承ください。\n本サービスのご利用によりお客様に損害や不利益が生じたとしても弊社は一切の責任を負いかねます。</string>
+	<string name="copyrights">Copyrights &#169; 2011&#8211;2012 Delivery Inc.,all rights reserved.</string>
+	<string name="web_service_name">Powered by ぐるなび</string>
+	<string name="web_service_url">http://mobile.gnavi.co.jp/</string>
+	<string name="web_service_desc">本サービスの店舗情報は、ぐるなびWebサービスのぐるなびAPIを使用しています。ご利用の際はぐるナビAPIの利用規約に同意するものとみなします。尚ぐるなびAPIの動作状況によっては本サービスをご利用いただけない場合がございます。あらかじめご了承ください。</string>
+	<string name="msg_info_find_store">現在地付近の店舗を検索しています。しばらくお待ちください。</string>
+	<string name="msg_info_find_store_dest">目的地付近の店舗を検索しています。しばらくお待ちください。</string>
+	<string name="msg_info_noshop">現在地付近のカフェを見つけることができませんでした。場所を移動してもう一度お試しください。</string>
+	<string name="msg_info_noshop_dest">目的地付近のカフェを見つけることができませんでした。目的地を入力してもう一度お試しください。</string>
+	<string name="msg_network_err_title">ネットワークエラー</string>
+	<string name="msg_network_err_message">ネットワークに接続できていないか電波が途切れたため、通信ができませんでした。電波状態を確認し、3GネットワークまたはWi-Fiに接続した状態でご利用ください。</string>
+	<string name="msg_network_err_button_text">OK</string>
+	<string name="msg_invalid_address">目的地付近のカフェを見つけることができませんでした。目的地を入力してもう一度お試しください。</string>
+	<string name="menu_shoplist_update">店舗情報更新</string>
+	<string name="menu_about">INFO</string>
+	<string name="button_go">ここに行く</string>
+	<string name="button_tel">電話する</string>
+	<string name="button_coupon">クーポン</string>
+	<string name="you_are_here_search">現在地で検索</string>
+	<string name="button_search">検索</string>
+	<string name="str_clear">クリア</string>
+	<string name="str_noshop">No shop</string>
+	<string name="lnk_support">サポート</string>
+	<string name="search_with_address">場所の入力</string>
+	
+	<string name="support_url">http://www.deliv.co.jp/solution/apps_collection</string>
+	<string name="app_Version">バージョン：</string>
+	<string name="catchCopy2">キャッチコピー２</string>
+	<string name="catchCopy1">キャッチコピー１</string>
+	<string name="shopName">お店の名前</string>
+	<string name="shopEmpty">-----</string>
+	<string name="str_Distance">ここからの距離</string>
+	<string name="str_walk">徒歩</string>
+	<string name="shopOpenHour">営業時間</string>
+	<string name="shopCoupon">クーポンあり</string>
+	<string name="msg_waiting">現在位置を取得しています。しばらくお待ちください。</string>
+	<string name="text_search_shop">すぐカフェる</string>
+	<string name="text_search_address">目的地でカフェる</string>
+	<string name="tab_name_info">INFO</string>
+	<string name="tab_name_update_location">現在地</string>
+	<string name="tab_name_map">地図</string>
+	<string name="tab_name_list">一覧</string>
+	<string name="btn_search">検索</string>
+	<string name="txt_search_shop">場所の入力</string>
+	<string name="img_description_defaut">すぐカフェ</string>
+	<string name="ShopCategory">カテゴリ</string>
+	<string name="ShopAccess">最寄り駅からのアクセス</string>
+	<string name="lbl_Address">住所</string>
+	<string name="ShopAddress">お店の住所</string>
+	<string name="ShopTel">電話番号</string>
+	<string name="ShopHoliday">定休日</string>
+	<string name="ShopAverage">平均予算</string>
+
+</resources>

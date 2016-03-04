@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wi-Fi接続制御アプリ</string>
+    <string name="action_settings">Settings</string>
+    <string name="toOn_label">wifiOnにする</string>
+    <string name="toOff_label">wifiOffにする</string>
+    <string name="onNow_label">wifiOnです</string>
+    <string name="offNow_label">wifiOffです</string>
+    <string name="read_connect1">接続1読込</string>
+
+</resources>

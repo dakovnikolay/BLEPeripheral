@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:23'
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "jp.co.deliv.android.imasugu.sugusake"
+        minSdkVersion 10
+        targetSdkVersion 4
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/GoogleAdMobAdsSdk-4.1.0.jar')
+    compile 'com.google.android.gms:play-services-maps:8.4.0'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.jpardogo.materialtabstrip:library:1.0.9'
+}

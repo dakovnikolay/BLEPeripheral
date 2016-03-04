@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WiFi Direct Scan List</string>
+    <string name="ap_list">WiFi Direct 接続可能AP</string>
+</resources>

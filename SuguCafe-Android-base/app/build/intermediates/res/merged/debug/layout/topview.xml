@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/img_description_defaut"
+        android:src="@drawable/sugucafe_logo" />
+
+    <TextView
+        android:id="@+id/application_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/web_service_name"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+	<LinearLayout 
+            android:id="@+id/linearLayout2"
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"            
+            android:layout_marginTop="15dp"
+            android:background="#73601C"
+            android:orientation="vertical"
+            >
+            
+            <Button
+            android:id="@+id/btnSeachAround"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+		    android:text="@string/text_search_shop"
+            android:textColor="#E9D4C0"
+            android:textSize="15sp" 
+            android:layout_margin="3dp"
+            android:background="@drawable/selector_btn_menu"
+            android:onClick="btnSeachAround_onClick"
+            />
+            
+        </LinearLayout>
+       
+ 		<LinearLayout 
+            android:id="@+id/linearLayout3"
+            android:layout_width="190dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:background="#73601C"
+            android:orientation="vertical"
+            >
+        <Button
+            android:id="@+id/btnNoSeach"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#E9D4C0"
+            android:text="@string/text_search_address" 
+            android:textSize="15sp"
+            android:layout_margin="3dp"
+            android:background="@drawable/selector_btn_menu"
+            android:onClick="btnNoSeach_OnClick"
+            
+            />
+        </LinearLayout>
+</LinearLayout>

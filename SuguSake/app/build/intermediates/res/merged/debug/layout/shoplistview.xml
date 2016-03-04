@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <ListView android:id="@+id/shopListView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	/>
+
+	<LinearLayout android:id="@+id/noshop"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center"
+		android:padding="15dip"
+    	android:layout_weight="1"
+		>
+
+		<ImageView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:scaleType="centerInside"
+			android:src="@drawable/noshop"
+			android:layout_margin="20dip"
+			/>
+		
+		<TextView
+			android:id="@+id/application_name"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/msg_info_noshop"
+			android:textSize="15sp"
+			/>		
+	</LinearLayout>
+    
+   	<!-- 広告表示 -->    	
+    <LinearLayout android:id="@+id/adLayout"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	>
+    	<!-- ここにadmobの広告を表示する -->
+   	</LinearLayout>
+   	
+</LinearLayout>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\icon.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\sugucafe_logo.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-mdpi\\sugucafe_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\noshop.png",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-mdpi\\noshop.png"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\api.gif",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\drawable-mdpi\\api.gif"
+    }
+]

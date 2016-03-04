@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_plus_signin_btn_text_light_default">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
+    <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
+    <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/><attr format="boolean" name="ambientEnabled"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsDividerWidth"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="boolean" name="pstsPaddingMiddle"/><attr format="color" name="pstsTextColorSelected"/><attr format="integer" name="pstsTextAlpha"/><attr name="pstsTextStyle"><flag name="normal" value="0x0"/><flag name="bold" value="0x1"/><flag name="italic" value="0x2"/></attr><attr name="pstsTextSelectedStyle"><flag name="normal" value="0x0"/><flag name="bold" value="0x1"/><flag name="italic" value="0x2"/></attr></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <declare-styleable name="com.google.ads.AdView"><attr format="string" name="adUnitId"/></declare-styleable>
+    <integer name="google_play_services_version">8487000</integer>
+    <string name="ShopAccess">最寄り駅からのアクセス</string>
+    <string name="ShopAddress">お店の住所</string>
+    <string name="ShopAverage">平均予算</string>
+    <string name="ShopCategory">カテゴリ</string>
+    <string name="ShopHoliday">定休日</string>
+    <string name="ShopTel">電話番号</string>
+    <string name="admob_publisherid">a14dd255c5c1717</string>
+    <string name="app_Version">バージョン：</string>
+    <string name="app_description">Quick Searchシリーズ ：すぐカフェは、今すぐコーヒーがのみたい！、近くのカフェを探している等に応える、カフェ検索アプリケーションです。\n端末の位置情報を利用して現在位置を中心に半径1km付近にあるカフェを検索します。\n位置情報の取得には、端末のGPS機能、ネットワークによる位置情報取得機能を利用しております。屋内などお使いの環境によっては、端末の位置情報が正確に取得できない場合がございます。あらかじめご了承ください。\n本サービスのご利用によりお客様に損害や不利益が生じたとしても弊社は一切の責任を負いかねます。</string>
+    <string name="app_name">すぐカフェ</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="btn_search">検索</string>
+    <string name="button_coupon">クーポン</string>
+    <string name="button_go">ここに行く</string>
+    <string name="button_search">検索</string>
+    <string name="button_tel">電話する</string>
+    <string name="catchCopy1">キャッチコピー１</string>
+    <string name="catchCopy2">キャッチコピー２</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_restricted_profile_text">Accessing accounts from a restricted profile is not supported.</string>
+    <string name="common_google_play_services_restricted_profile_title">Restricted Profile</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="copyrights">Copyrights © 2011–2012 Delivery Inc.,all rights reserved.</string>
+    <string name="google_maps_key"> AIzaSyBs0wMak1-kp1Sp2qr71lq7CyG6zzierOU </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img_description_defaut">すぐカフェ</string>
+    <string name="lbl_Address">住所</string>
+    <string name="lnk_support">サポート</string>
+    <string name="menu_about">INFO</string>
+    <string name="menu_shoplist_update">店舗情報更新</string>
+    <string name="msg_info_find_store">現在地付近の店舗を検索しています。しばらくお待ちください。</string>
+    <string name="msg_info_find_store_dest">目的地付近の店舗を検索しています。しばらくお待ちください。</string>
+    <string name="msg_info_noshop">現在地付近のカフェを見つけることができませんでした。場所を移動してもう一度お試しください。</string>
+    <string name="msg_info_noshop_dest">目的地付近のカフェを見つけることができませんでした。目的地を入力してもう一度お試しください。</string>
+    <string name="msg_invalid_address">目的地付近のカフェを見つけることができませんでした。目的地を入力してもう一度お試しください。</string>
+    <string name="msg_network_err_button_text">OK</string>
+    <string name="msg_network_err_message">ネットワークに接続できていないか電波が途切れたため、通信ができませんでした。電波状態を確認し、3GネットワークまたはWi-Fiに接続した状態でご利用ください。</string>
+    <string name="msg_network_err_title">ネットワークエラー</string>
+    <string name="msg_waiting">現在位置を取得しています。しばらくお待ちください。</string>
+    <string name="search_with_address">場所の入力</string>
+    <string name="series_name">Quick Search</string>
+    <string name="shopCoupon">クーポンあり</string>
+    <string name="shopEmpty">-----</string>
+    <string name="shopName">お店の名前</string>
+    <string name="shopOpenHour">営業時間</string>
+    <string name="str_Distance">ここからの距離</string>
+    <string name="str_clear">クリア</string>
+    <string name="str_noshop">No shop</string>
+    <string name="str_walk">徒歩</string>
+    <string name="support_url">http://www.deliv.co.jp/solution/apps_collection</string>
+    <string name="tab_name_info">INFO</string>
+    <string name="tab_name_list">一覧</string>
+    <string name="tab_name_map">地図</string>
+    <string name="tab_name_update_location">現在地</string>
+    <string name="text_search_address">目的地でカフェる</string>
+    <string name="text_search_shop">すぐカフェる</string>
+    <string name="txt_search_shop">場所の入力</string>
+    <string name="web_service_desc">本サービスの店舗情報は、ぐるなびWebサービスのぐるなびAPIを使用しています。ご利用の際はぐるナビAPIの利用規約に同意するものとみなします。尚ぐるなびAPIの動作状況によっては本サービスをご利用いただけない場合がございます。あらかじめご了承ください。</string>
+    <string name="web_service_name">Powered by ぐるなび</string>
+    <string name="web_service_url">http://mobile.gnavi.co.jp/</string>
+    <string name="you_are_here_search">現在地で検索</string>
+    <style name="ShopCategory"><item name="android:textColor">#deb887</item>
+</style>
+    <style name="ShopName"><item name="android:textColor">#8b4513</item>
+</style>
+    <style name="btn_menu_click">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:textStyle">italic</item>
+	<item name="android:background">#C56608</item>
+	<item name="android:textSize">18sp</item>
+</style>
+    <style name="btn_menu_regular">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">fill_parent</item>
+	<item name="android:textStyle">normal</item>
+	<item name="android:background">#C56608</item>
+	<item name="android:textSize">15sp</item>
+</style>
+</resources>

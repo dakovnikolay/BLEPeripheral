@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shopdetailview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\shopdetailview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shoplistview_row.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\shoplistview_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tabs.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aboutview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\aboutview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\balloon_data_view.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\balloon_data_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\topview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\topview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_menu_view.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\tab_menu_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\shoplistview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\shoplistview.xml"
+    },
+    {
+        "merged": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cafemapview.xml",
+        "source": "C:\\Users\\dlv4119\\AndroidStudioProjects\\SuguCafe-Android-base\\app\\src\\main\\res\\layout\\cafemapview.xml"
+    }
+]

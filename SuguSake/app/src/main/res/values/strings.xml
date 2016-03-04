@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">すぐ酒</string>
+	<string name="series_name">Quick Search</string>
+	<string name="app_description">Quick Searchシリーズ ：すぐ酒は、「帰りにちょっと一杯のみたい」、「2次会の居酒屋やバーを探している」等に応える、居酒屋・バー検索アプリケーションです。\n端末の位置情報を利用して現在位置を中心に半径500m付近にある店舗を検索します。\n位置情報の取得には、端末のGPS機能、ネットワークによる位置情報取得機能を利用しております。屋内などお使いの環境によっては、端末の位置情報が正確に取得できない場合がございます。あらかじめご了承ください。\n本サービスのご利用によりお客様に損害や不利益が生じたとしても弊社は一切の責任を負いかねます。</string>
+	<string name="copyrights">Copyrights (C) 2011 Delivery Inc.,all rights reserved.</string>
+	<string name="web_service_name">Powered by ぐるなび</string>
+	<string name="web_service_url">http://mobile.gnavi.co.jp/</string>
+	<string name="web_service_desc">本サービスの店舗情報は、ぐるなびWebサービスのぐるなびAPIを使用しています。ご利用の際はぐるナビAPIの利用規約に同意するものとみなします。尚ぐるなびAPIの動作状況によっては本サービスをご利用いただけない場合がございます。あらかじめご了承ください。</string>
+	<string name="msg_info_find_store">現在地付近の店舗を検索しています。しばらくお待ちください。</string>
+	<string name="msg_info_noshop">現在地付近の居酒屋やバーを見つけることができませんでした。場所を移動してもう一度お試しください。</string>
+	<string name="menu_shoplist_update">店舗情報更新</string>
+	<string name="menu_about">INFO</string>
+	<string name="button_go">ここに行く</string>
+	<string name="button_tel">電話する</string>
+	<string name="button_coupon">クーポン</string>
+</resources>

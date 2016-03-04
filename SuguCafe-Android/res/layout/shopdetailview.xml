@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <TextView
+            android:id="@+id/shopCategory"
+            style="@style/ShopCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ShopCategory" />
+
+        <TextView
+            android:id="@+id/shopName"
+            style="@style/ShopName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/shopName"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <ProgressBar
+                android:id="@+id/shopImageProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:id="@+id/shopImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" 
+                android:contentDescription="@string/img_description_defaut"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="3dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnGoNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/button_go" />
+
+            <Button
+                android:id="@+id/btnTelephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/button_tel" />
+
+            <Button
+                android:id="@+id/btnShowCoupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:text="@string/button_coupon" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shopCatchCopy2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/catchCopy2" />
+
+        <TextView
+            android:id="@+id/shopCatchCopy1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/shopAccess"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ShopAccess"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_margin="5dip"
+            android:gravity="fill_horizontal"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/divider_horizontal_textfield" 
+            android:contentDescription="@string/img_description_defaut"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbl_Address"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shopAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:text="@string/ShopAddress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ShopTel"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shopTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:text="@string/ShopTel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shopOpenHour"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shopOpenHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:text="@string/shopOpenHour" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ShopHoliday" />
+
+            <TextView
+                android:id="@+id/shopHoliday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:text="@string/ShopHoliday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ShopAverage"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/shopAverage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:text="@string/ShopAverage"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_margin="5dip"
+            android:gravity="fill_horizontal"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/divider_horizontal_textfield" 
+            android:contentDescription="@string/img_description_defaut"/>
+    </LinearLayout>
+
+</ScrollView>

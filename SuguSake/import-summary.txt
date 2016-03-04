@@ -1,0 +1,222 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* SuguSake-Android\
+* SuguSake-Android\.classpath
+* SuguSake-Android\.project
+* SuguSake-Android\AndroidManifest.xml
+* SuguSake-Android\libs\
+* SuguSake-Android\libs\GoogleAdMobAdsSdk-4.1.0.jar
+* SuguSake-Android\project.properties
+* SuguSake-Android\res\
+* SuguSake-Android\res\drawable-hdpi\
+* SuguSake-Android\res\drawable-hdpi\api.gif
+* SuguSake-Android\res\drawable-hdpi\balloon_disclosure.png
+* SuguSake-Android\res\drawable-hdpi\balloon_overlay_close.png
+* SuguSake-Android\res\drawable-hdpi\balloon_overlay_focused.9.png
+* SuguSake-Android\res\drawable-hdpi\balloon_overlay_unfocused.9.png
+* SuguSake-Android\res\drawable-hdpi\icon.png
+* SuguSake-Android\res\drawable-hdpi\noshop.png
+* SuguSake-Android\res\drawable-hdpi\sugusake_logo.png
+* SuguSake-Android\res\drawable-ldpi\
+* SuguSake-Android\res\drawable-ldpi\api.gif
+* SuguSake-Android\res\drawable-ldpi\icon.png
+* SuguSake-Android\res\drawable-ldpi\noshop.png
+* SuguSake-Android\res\drawable-ldpi\sugusake_logo.png
+* SuguSake-Android\res\drawable-mdpi\
+* SuguSake-Android\res\drawable-mdpi\api.gif
+* SuguSake-Android\res\drawable-mdpi\icon.png
+* SuguSake-Android\res\drawable-mdpi\noshop.png
+* SuguSake-Android\res\drawable-mdpi\sugusake_logo.png
+* SuguSake-Android\res\drawable\
+* SuguSake-Android\res\drawable\about_boarder.xml
+* SuguSake-Android\res\drawable\balloon_overlay_bg_selector.xml
+* SuguSake-Android\res\drawable\home.png
+* SuguSake-Android\res\drawable\selector_btn_menu.xml
+* SuguSake-Android\res\drawable\selector_btn_seach.xml
+* SuguSake-Android\res\drawable\selector_btn_tabs.xml
+* SuguSake-Android\res\drawable\user.png
+* SuguSake-Android\res\layout\
+* SuguSake-Android\res\layout\aboutview.xml
+* SuguSake-Android\res\layout\balloon_data_view.xml
+* SuguSake-Android\res\layout\sakemapview.xml
+* SuguSake-Android\res\layout\shopdetailview.xml
+* SuguSake-Android\res\layout\shoplistview.xml
+* SuguSake-Android\res\layout\shoplistview_row.xml
+* SuguSake-Android\res\layout\tab_menu_view.xml
+* SuguSake-Android\res\layout\tabs.xml
+* SuguSake-Android\res\layout\topview.xml
+* SuguSake-Android\res\values\
+* SuguSake-Android\res\values\advertising.xml
+* SuguSake-Android\res\values\attr.xml
+* SuguSake-Android\res\values\strings.xml
+* SuguSake-Android\res\values\styles.xml
+* SuguSake-Android\src\
+* SuguSake-Android\src\com\
+* SuguSake-Android\src\com\readystatesoftware\
+* SuguSake-Android\src\com\readystatesoftware\mapviewballoons\
+* SuguSake-Android\src\com\readystatesoftware\mapviewballoons\BalloonItemizedOverlay.java
+* SuguSake-Android\src\com\readystatesoftware\mapviewballoons\BalloonOverlayView.java
+* SuguSake-Android\src\jp\
+* SuguSake-Android\src\jp\co\
+* SuguSake-Android\src\jp\co\deliv\
+* SuguSake-Android\src\jp\co\deliv\android\
+* SuguSake-Android\src\jp\co\deliv\android\cache\
+* SuguSake-Android\src\jp\co\deliv\android\cache\ImageMemoryCache.java
+* SuguSake-Android\src\jp\co\deliv\android\geocoding\
+* SuguSake-Android\src\jp\co\deliv\android\geocoding\GeoCodingUtils.java
+* SuguSake-Android\src\jp\co\deliv\android\geocoding\GeoLocation.java
+* SuguSake-Android\src\jp\co\deliv\android\geocoding\GoogleDirectionsAPI.java
+* SuguSake-Android\src\jp\co\deliv\android\geocoding\RouteStep.java
+* SuguSake-Android\src\jp\co\deliv\android\http\
+* SuguSake-Android\src\jp\co\deliv\android\http\HttpClient.java
+* SuguSake-Android\src\jp\co\deliv\android\http\ImageDownloadTask.java
+* SuguSake-Android\src\jp\co\deliv\android\http\NetworkErrorAlertDialog.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\ShopInfo.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\customize\
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\customize\CustomBalloonOverlayView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\customize\CustomItemizedOverlay.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\customize\CustomOverlayItem.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\ApplicationData.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\GetFormattedAddressTask.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\GetShopListInTab.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\GetShopListInfoTask.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\GetShopListTask.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\MapItem.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\OnSingleTapListener.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\SakeMapView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\ShopDetailView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\ShopListAdapter.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\ShopListSearchView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\ShopMapSearchView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\SuguSakeAboutView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\SuguSakeConst.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\SuguSakeTabMenuView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\SuguSakeTopView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\SuguSakeUtils.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\sugusake\TapControlledMapView.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\webapi\
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\webapi\ShopInfoAPIPaser.java
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\webapi\gurunavi\
+* SuguSake-Android\src\jp\co\deliv\android\imasugu\webapi\gurunavi\GuruNaviAPIParser.java
+* SuguSake-Android\src\jp\co\deliv\android\location\
+* SuguSake-Android\src\jp\co\deliv\android\location\DeviceLocation.java
+* SuguSake-Android\src\jp\co\deliv\android\location\LocationDisabledAlert.java
+* SuguSake-Android\src\jp\co\deliv\android\location\LocationListenerWithTimeout.java
+* SuguSake-Android\src\jp\co\deliv\android\location\ProviderNotFoundException.java
+* SuguSake-iPhone\
+* SuguSake-iPhone\Classes\
+* SuguSake-iPhone\Classes\CalloutAnnotationView.h
+* SuguSake-iPhone\Classes\CalloutAnnotationView.m
+* SuguSake-iPhone\Classes\CoreLocationController.h
+* SuguSake-iPhone\Classes\CoreLocationController.m
+* SuguSake-iPhone\Classes\CustomCalloutProtocols.h
+* SuguSake-iPhone\Classes\InfoView.h
+* SuguSake-iPhone\Classes\InfoView.m
+* SuguSake-iPhone\Classes\InfoView.xib
+* SuguSake-iPhone\Classes\MainTabBarView.h
+* SuguSake-iPhone\Classes\MainTabBarView.m
+* SuguSake-iPhone\Classes\MainTabBarView.xib
+* SuguSake-iPhone\Classes\MapView.h
+* SuguSake-iPhone\Classes\MapView.m
+* SuguSake-iPhone\Classes\MapView.xib
+* SuguSake-iPhone\Classes\MyAnnotation.h
+* SuguSake-iPhone\Classes\MyAnnotation.m
+* SuguSake-iPhone\Classes\MyLocation.h
+* SuguSake-iPhone\Classes\MyLocation.m
+* SuguSake-iPhone\Classes\RootViewController.h
+* SuguSake-iPhone\Classes\RootViewController.m
+* SuguSake-iPhone\Classes\ShopDetailViewController.h
+* SuguSake-iPhone\Classes\ShopDetailViewController.m
+* SuguSake-iPhone\Classes\ShopListCell.h
+* SuguSake-iPhone\Classes\ShopListCell.m
+* SuguSake-iPhone\Classes\ShopListViewController.h
+* SuguSake-iPhone\Classes\ShopListViewController.m
+* SuguSake-iPhone\Classes\ShopMapView.h
+* SuguSake-iPhone\Classes\ShopMapView.m
+* SuguSake-iPhone\Classes\ShopMapView.xib
+* SuguSake-iPhone\Classes\SuguCafeAppDelegate.h
+* SuguSake-iPhone\Classes\SuguCafeAppDelegate.m
+* SuguSake-iPhone\Classes\SuguCalloutAnnotation.h
+* SuguSake-iPhone\Classes\SuguCalloutAnnotation.m
+* SuguSake-iPhone\Classes\SuguCalloutView.h
+* SuguSake-iPhone\Classes\SuguCalloutView.m
+* SuguSake-iPhone\Classes\SuguCalloutView.xib
+* SuguSake-iPhone\Classes\SuguLocationAnnotation.h
+* SuguSake-iPhone\Classes\SuguLocationAnnotation.m
+* SuguSake-iPhone\Classes\SuguLocationView.h
+* SuguSake-iPhone\Classes\SuguLocationView.m
+* SuguSake-iPhone\GADBannerView.h
+* SuguSake-iPhone\GADBannerViewDelegate.h
+* SuguSake-iPhone\GADInterstitial.h
+* SuguSake-iPhone\GADInterstitialDelegate.h
+* SuguSake-iPhone\GADRequest.h
+* SuguSake-iPhone\GADRequestError.h
+* SuguSake-iPhone\GnaviParser.h
+* SuguSake-iPhone\GnaviParser.m
+* SuguSake-iPhone\ImageDownloadTask.h
+* SuguSake-iPhone\ImageDownloadTask.m
+* SuguSake-iPhone\MainWindow.xib
+* SuguSake-iPhone\RegexKitLite.h
+* SuguSake-iPhone\RegexKitLite.m
+* SuguSake-iPhone\RootViewController.xib
+* SuguSake-iPhone\ShopDetail.xib
+* SuguSake-iPhone\ShopInfo.h
+* SuguSake-iPhone\ShopInfo.m
+* SuguSake-iPhone\ShopListCell.xib
+* SuguSake-iPhone\ShopListView.xib
+* SuguSake-iPhone\SuguCafe-Info.plist
+* SuguSake-iPhone\SuguSake.xcodeproj\
+* SuguSake-iPhone\SuguSake.xcodeproj\deliveryvn.mode1v3
+* SuguSake-iPhone\SuguSake.xcodeproj\deliveryvn.pbxuser
+* SuguSake-iPhone\SuguSake.xcodeproj\project.pbxproj
+* SuguSake-iPhone\SuguSake_Prefix.pch
+* SuguSake-iPhone\XPathQuery.h
+* SuguSake-iPhone\XPathQuery.m
+* SuguSake-iPhone\api.gif
+* SuguSake-iPhone\button.png
+* SuguSake-iPhone\en.lproj\
+* SuguSake-iPhone\en.lproj\Localizable.strings
+* SuguSake-iPhone\icon.png
+* SuguSake-iPhone\icon_retina.png
+* SuguSake-iPhone\info_24.png
+* SuguSake-iPhone\ja.lproj\
+* SuguSake-iPhone\ja.lproj\Localizable.strings
+* SuguSake-iPhone\main.m
+* SuguSake-iPhone\noshop.png
+* SuguSake-iPhone\sugusake_logo.png
+* default.properties
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\GoogleAdMobAdsSdk-4.1.0.jar => app\libs\GoogleAdMobAdsSdk-4.1.0.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
