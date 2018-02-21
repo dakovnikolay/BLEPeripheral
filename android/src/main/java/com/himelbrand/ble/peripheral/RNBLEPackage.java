@@ -10,7 +10,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.himelbrand.ble.peripheral.RNBLEModule;
 
-public class RNBLEPackage implements ReactPackage {
+public abstract class RNBLEPackage implements ReactPackage {
 
   @Override
   public List<NativeModule> createNativeModules(

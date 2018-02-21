@@ -20,3 +20,19 @@ dependencies {
     compile "com.facebook.react:react-native:+"  // From node_modules
 }
 
+
+buildscript {
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+    repositories {
+        jcenter()
+        google()
+    }
+}
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
