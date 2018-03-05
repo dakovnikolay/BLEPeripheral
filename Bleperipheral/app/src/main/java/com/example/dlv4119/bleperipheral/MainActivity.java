@@ -41,11 +41,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        /*
         RNBLEModule ble = new RNBLEModule(this, this);
         ble.addService(serviceUUID, true);
         ble.addCharacteristicToService(serviceUUID, characteristicUUID1, 17, 16);
         ble.addCharacteristicToService(serviceUUID, characteristicUUID2, 17, 6);
         ble.start();
+        */
 
         /*
         setContentView(R.layout.activity_main);

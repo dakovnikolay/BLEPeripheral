@@ -35,7 +35,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Set;
 import java.util.UUID;
 
@@ -64,7 +66,7 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
  * {@link NativeModule} that allows JS to open the default browser
  * for an url.
  */
-public class RNBLEModule {
+public class RNBLEModule extends ReactContextBaseJavaModule {
 
     HashMap<String, BluetoothGattService> servicesMap;
     HashSet<BluetoothDevice> mBluetoothDevices;
@@ -76,19 +78,22 @@ public class RNBLEModule {
 
     private static final String deviceName = "PEACH";
     boolean advertising;
-    private Context reactContext;
-    private Activity activity;
+    private ReactApplicationContext reactContext;
+    private Callback reactAppCallback;
+    //private Activity activity;
 
-    final TextView textViewToChange;
+    //final TextView textViewToChange;
 
-    public RNBLEModule(Context reactContext, Activity activity) {
+    public RNBLEModule(ReactApplicationContext reactContext) {
+        super(reactContext);
         this.reactContext = reactContext;
         this.servicesMap = new HashMap<String, BluetoothGattService>();
         this.advertising = false;
-        this.activity = activity;
-        textViewToChange = (TextView) activity.findViewById(R.id.tvHeartRate);
+        //this.activity = activity;
+        //textViewToChange = (TextView) activity.findViewById(R.id.tvHeartRate);
     }
 
+    @ReactMethod
     public void addService(String uuid, Boolean primary) {
         UUID SERVICE_UUID = UUID.fromString(uuid);
         int type = primary ? BluetoothGattService.SERVICE_TYPE_PRIMARY : BluetoothGattService.SERVICE_TYPE_SECONDARY;
@@ -97,6 +102,7 @@ public class RNBLEModule {
             this.servicesMap.put(uuid, tempService);
     }
 
+    @ReactMethod
     public void addCharacteristicToService(String serviceUUID, String uuid, Integer permissions, Integer properties) {
         UUID CHAR_UUID = UUID.fromString(uuid);
         BluetoothGattCharacteristic tempChar = new BluetoothGattCharacteristic(CHAR_UUID, properties, permissions);
@@ -146,8 +152,12 @@ public class RNBLEModule {
                     responseNeeded, offset, value);
 
             if (value != null) {
-                textViewToChange.setText(value.toString());
+                //textViewToChange.setText(value.toString());
                 Log.d("TAG", "value ~ " + new String(value));
+            }
+
+            if (reactAppCallback != null) {
+                reactAppCallback.invoke(new String(value));
             }
 
             characteristic.setValue(value);
@@ -160,23 +170,20 @@ public class RNBLEModule {
             }
             map.putArray("data",data);
             map.putString("device",device.toString());
-
-            sendEvent(reactContext, "dataReceived", map);
+            */
 
             if (responseNeeded) {
                 mGattServer.sendResponse(device, requestId, 1, 0, value);
-            }*/
+            }
         }
     };
 
-    private void sendEvent(ReactContext reactContext,
-                           String eventName,
-                           @Nullable WritableMap params) {
-        reactContext
-                .getJSModule(DeviceEventManagerModule.RCTDeviceEventEmitter.class)
-                .emit(eventName, params);
+    @ReactMethod
+    public void addListener(Callback callback) {
+        this.reactAppCallback = callback;
     }
 
+    @ReactMethod
     public void start(){
         mBluetoothManager = (BluetoothManager) reactContext.getSystemService(Context.BLUETOOTH_SERVICE);
         mBluetoothAdapter = mBluetoothManager.getAdapter();
@@ -225,6 +232,7 @@ public class RNBLEModule {
         advertiser.startAdvertising(settings, data, advertisingCallback);
     }
 
+    @ReactMethod
     public void stop(){
         if (mGattServer != null) {
             mGattServer.close();
@@ -252,8 +260,13 @@ public class RNBLEModule {
         }
     }
 
+    @ReactMethod
     public void isAdvertising(Promise promise){
         promise.resolve(this.advertising);
     }
 
+    @Override
+    public String getName() {
+        return "PEACH Service.";
+    }
 }
