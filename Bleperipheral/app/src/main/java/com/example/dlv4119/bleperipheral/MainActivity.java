@@ -4,6 +4,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
+import android.bluetooth.BluetoothGattDescriptor;
 import android.bluetooth.BluetoothGattServer;
 import android.bluetooth.BluetoothGattServerCallback;
 import android.bluetooth.BluetoothGattService;
@@ -23,98 +24,106 @@ import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String DEVICE_NAME = "DKV";
     BluetoothGattServer gattServer;
     BluetoothDevice mDevice;
     BluetoothGattCharacteristic mCharacteristic;
-    private static final String mSERVICE_UUID = "0000180a-0000-1000-8000-00805f9b34fb";
-    /** characteristicのUUID */
-    private static final String mCHARACTERISTIC_UUID = "00002902-0000-1000-8000-00805f9b34fb";
+    BluetoothGattCharacteristic nCharacteristic;
+
+    private static final String serviceUUID = "0000fff0-0000-1000-8000-00805f9b34fb";
+    private static final String characteristicUUID1 = "0000fff1-0000-1000-8000-00805f9b34fb";
+    private static final String characteristicUUID2 = "0000fff2-0000-1000-8000-00805f9b34fb";
+    private static final String descriptorUUID = "00002902-0000-1000-8000-00805f9b34fb";
+
+    private boolean advertising;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        RNBLEModule ble = new RNBLEModule(this, this);
+        ble.addService(serviceUUID, true);
+        ble.addCharacteristicToService(serviceUUID, characteristicUUID1, 17, 16);
+        ble.addCharacteristicToService(serviceUUID, characteristicUUID2, 17, 6);
+        ble.start();
+
+        /*
         setContentView(R.layout.activity_main);
 
         BluetoothManager manager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
-        BluetoothAdapter adapter = manager.getAdapter();
-        BluetoothLeAdvertiser advertiser = adapter.getBluetoothLeAdvertiser();
 
-        setGattServer();
+        gattServer = manager.openGattServer(getApplicationContext(), gattServerCallback);
 
-        // 設定
-        AdvertiseSettings.Builder settingBuilder = new AdvertiseSettings.Builder();
-        settingBuilder.setAdvertiseMode(AdvertiseSettings.ADVERTISE_MODE_LOW_POWER);
-        settingBuilder.setConnectable(false);
-        settingBuilder.setTimeout(0);
-        settingBuilder.setTxPowerLevel(AdvertiseSettings.ADVERTISE_TX_POWER_LOW);
-        AdvertiseSettings settings = settingBuilder.build();
+        BluetoothGattService service = new BluetoothGattService(UUID.fromString(serviceUUID),
+                BluetoothGattService.SERVICE_TYPE_PRIMARY);
 
-        // アドバタイジングデータ
-        AdvertiseData.Builder dataBuilder = new AdvertiseData.Builder();
-        dataBuilder.addServiceUuid(new ParcelUuid(UUID.fromString("65432461-1EFE-4ADB-BC7E-9F7F8E27FDC1")));
-        AdvertiseData advertiseData = dataBuilder.build();
+        nCharacteristic = new BluetoothGattCharacteristic(UUID.fromString(characteristicUUID1), 16, 17);
+        nCharacteristic.addDescriptor(new BluetoothGattDescriptor(UUID.fromString(descriptorUUID), 17));
+        service.addCharacteristic(nCharacteristic);
 
-        //アドバタイズを開始
-        advertiser.startAdvertising(settings, advertiseData, new AdvertiseCallback() {
-            @Override
-            public void onStartSuccess(AdvertiseSettings settingsInEffect) {
-                super.onStartSuccess(settingsInEffect);
-                Log.d("startAdvertising()", "Advertiseに成功!!");
-            }
-
-            @Override
-            public void onStartFailure(int errorCode) {
-                super.onStartFailure(errorCode);
-                Log.d("startAdvertising()", "Advertiseに失敗、、、");
-            }
-        });
-    }
-
-    public void setGattServer() {
-
-        BluetoothManager manager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
-
-        // GattServer
-        gattServer = manager.openGattServer(getApplicationContext(), new BluetoothGattServerCallback() {
-            @Override
-            public void onCharacteristicWriteRequest(BluetoothDevice device, int requestId, BluetoothGattCharacteristic characteristic, boolean preparedWrite, boolean responseNeeded, int offset, byte[] value) {
-                super.onCharacteristicWriteRequest(device, requestId, characteristic, preparedWrite, responseNeeded, offset, value);
-                if (value != null) {
-                    Log.d("TAG", "value ~ " + new String(value));
-                }
-                gattServer.sendResponse(device, requestId, BluetoothGatt.GATT_SUCCESS, offset, null);
-            }
-
-            @Override
-            public void onCharacteristicReadRequest(BluetoothDevice device, int requestId, int offset, BluetoothGattCharacteristic characteristic) {
-                super.onCharacteristicReadRequest(device, requestId, offset, characteristic);
-                gattServer.sendResponse(device, requestId, BluetoothGatt.GATT_SUCCESS, offset, "ABC".getBytes());
-            }
-
-            @Override
-            public void onConnectionStateChange(BluetoothDevice device, int status, int newState) {
-                super.onConnectionStateChange(device, status, newState);
-                if (newState == BluetoothProfile.STATE_CONNECTED) {
-                    mDevice = device;
-                } else if (newState == BluetoothProfile.STATE_DISCONNECTED) {
-                    mDevice = null;
-                }
-            }
-        });
-
-        // Serviceを登録
-        BluetoothGattService service = new BluetoothGattService(UUID.fromString(mSERVICE_UUID),
-                        BluetoothGattService.SERVICE_TYPE_PRIMARY);
-        mCharacteristic = new BluetoothGattCharacteristic(
-                UUID.fromString(mCHARACTERISTIC_UUID),
-                        BluetoothGattCharacteristic.PROPERTY_NOTIFY |
-                                BluetoothGattCharacteristic.PROPERTY_READ |
-                                BluetoothGattCharacteristic.PROPERTY_WRITE,
-                        BluetoothGattCharacteristic.PERMISSION_READ |
-                                BluetoothGattCharacteristic.PERMISSION_WRITE);
-        // characteristicUUIDをserviceUUIDにのせる
+        mCharacteristic = new BluetoothGattCharacteristic(UUID.fromString(characteristicUUID2),6, 17);
+        mCharacteristic.addDescriptor(new BluetoothGattDescriptor(UUID.fromString(descriptorUUID), 17));
         service.addCharacteristic(mCharacteristic);
-        // serviceUUIDをサーバーにのせる
+
         gattServer.addService(service);
+
+        AdvertiseSettings settings = new AdvertiseSettings.Builder()
+                .setConnectable(true)
+                .build();
+
+        AdvertiseData advertiseData = new AdvertiseData.Builder()
+                .setIncludeDeviceName(true)
+                .setIncludeTxPowerLevel(true)
+                .addServiceUuid(new ParcelUuid(UUID.fromString(serviceUUID)))
+                .build();
+
+        BluetoothAdapter adapter = manager.getAdapter();
+        adapter.setName(DEVICE_NAME);
+        BluetoothLeAdvertiser advertiser = adapter.getBluetoothLeAdvertiser();
+        advertiser.startAdvertising(settings, advertiseData, advertiseCallback);*/
     }
+
+    private final BluetoothGattServerCallback gattServerCallback = new  BluetoothGattServerCallback() {
+        @Override
+        public void onCharacteristicWriteRequest(BluetoothDevice device, int requestId, BluetoothGattCharacteristic characteristic, boolean preparedWrite, boolean responseNeeded, int offset, byte[] value) {
+            super.onCharacteristicWriteRequest(device, requestId, characteristic, preparedWrite, responseNeeded, offset, value);
+            if (value != null) {
+                Log.d("TAG", "value ~ " + new String(value));
+            }
+            gattServer.sendResponse(device, requestId, BluetoothGatt.GATT_SUCCESS, offset, null);
+        }
+
+        @Override
+        public void onCharacteristicReadRequest(BluetoothDevice device, int requestId, int offset, BluetoothGattCharacteristic characteristic) {
+            super.onCharacteristicReadRequest(device, requestId, offset, characteristic);
+            gattServer.sendResponse(device, requestId, BluetoothGatt.GATT_SUCCESS, offset, "ABC".getBytes());
+        }
+
+        @Override
+        public void onConnectionStateChange(BluetoothDevice device, int status, int newState) {
+            super.onConnectionStateChange(device, status, newState);
+            if (newState == BluetoothProfile.STATE_CONNECTED) {
+                mDevice = device;
+            } else if (newState == BluetoothProfile.STATE_DISCONNECTED) {
+                mDevice = null;
+            }
+        }
+    };
+
+    private final AdvertiseCallback advertiseCallback = new AdvertiseCallback() {
+        @Override
+        public void onStartSuccess(AdvertiseSettings settingsInEffect) {
+            super.onStartSuccess(settingsInEffect);
+            Log.e("RNBLEModule", "Advertising success! ");
+            advertising = true;
+
+        }
+
+        @Override
+        public void onStartFailure(int errorCode) {
+            advertising = false;
+            Log.e("RNBLEModule", "Advertising onStartFailure: " + errorCode);
+            super.onStartFailure(errorCode);
+        }
+    };
 }

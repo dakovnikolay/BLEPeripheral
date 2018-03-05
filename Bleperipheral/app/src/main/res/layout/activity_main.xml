@@ -9,8 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.dlv4119.bleperipheral.MainActivity">
 
+
     <TextView
+        android:id="@+id/tvHeartRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/rate"
+        android:textSize="36sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvHeartRate"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="96dp"
+        android:text="Button" />
 </RelativeLayout>

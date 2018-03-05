@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Ble peripheral</string>
+    <string name="rate">Heart Rate</string>
 </resources>
